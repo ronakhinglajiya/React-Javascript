@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  ,
+  apiKey: "AIzaSyAnAkSKB47XZ22ewIcCCpIrLxK8tMFxSC8",
   authDomain: "macrotrackingapp-c654d.firebaseapp.com",
   projectId: "macrotrackingapp-c654d",
   storageBucket: "macrotrackingapp-c654d.firebasestorage.app",
