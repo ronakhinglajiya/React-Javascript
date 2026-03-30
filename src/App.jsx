@@ -1,3 +1,4 @@
+import "./App.css";
 import { useState, useEffect } from "react";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "./firebase";
@@ -7,7 +8,6 @@ import FoodLog from "./FoodLog";
 import Goals from "./Goals";
 import Nav from "./Nav";
 import { MacroProvider } from "./MacroContext";
-import "./App.css";
 
 export default function App() {
   const [user, setUser] = useState(undefined); // undefined = still checking
